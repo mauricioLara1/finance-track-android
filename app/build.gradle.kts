@@ -76,10 +76,6 @@ dependencies {
 
 }
 
-ksp {
-    arg("room.schemaLocation", "$projectDir/schemas")
-}
-
 room {
     schemaDirectory("$projectDir/schemas") // ¡versiona esta carpeta!
 }
